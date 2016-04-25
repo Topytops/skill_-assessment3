@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}TITLE GOES HERE{% endblock%}</title>
+    <link type="text/css" rel="stylesheet" href="static/styles.css"/>   
+</head>
+<body> 
+    <div>
+        <h2 class="brand"> RobotLand Inc.</h2>
+    </div>
+         <img src="http://www.shreegaayathriconsultants.com/wp-content/uploads/2015/11/Automation-QA-Engineer.jpg" alt="image of robot looking with a glass magnifier" width= "450" height="200">
+
+
+        {% block content %}BODY CONTENT GOES HERE{% endblock %}
+    <footer>Copyright Code Rosie 2016</footer>
+</body>
+<html>

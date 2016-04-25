@@ -1,0 +1,21 @@
+/*Your styles can go here*/
+
+h2 { font-family: sans-serif;
+	color: blue;
+}
+
+p { font-family: :sans-serif
+	color: blue;}
+
+
+#inputback{
+	background-color: yellow;
+}
+#lastname{
+	font-weight: bold;
+}
+
+.instructions{
+	border: 3px solid blue;
+	padding: 1px;
+}
